@@ -28,4 +28,5 @@ class BlogPost extends Model
     {
         return $this->belongsTo(User::class);
     }
+    //end of file for now. new model update upcoming...
 }
