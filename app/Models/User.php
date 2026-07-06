@@ -50,4 +50,5 @@ class User extends Authenticatable
     {
         return $this->hasMany(BlogPost::class);
     }
+    //to add extra fucntions for the user...
 }
