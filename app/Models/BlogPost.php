@@ -11,6 +11,8 @@ class BlogPost extends Model
     use HasFactory;
 
     protected $fillable = ['title', 'body', 'user_id'];
+
+    //remove this nonsense.
     /**
  * Create a new factory instance for the model.
  *
