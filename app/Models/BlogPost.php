@@ -12,7 +12,6 @@ class BlogPost extends Model
 
     protected $fillable = ['title', 'body', 'user_id'];
 
-    //remove this nonsense.
     /**
  * Create a new factory instance for the model.
  *
@@ -24,6 +23,7 @@ class BlogPost extends Model
     /**
      * Get the user that owns the post.
      */
+    //user relationship to BlogPost.
     public function user()
     {
         return $this->belongsTo(User::class);
